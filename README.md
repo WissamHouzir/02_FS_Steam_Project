@@ -71,13 +71,15 @@ L’analyse est structurée en trois parties principales :
 
 Les notebooks ont été exportés au format **HTML** afin de permettre une consultation simple des analyses et des visualisations sans nécessiter un accès à Databricks.
 
-### Accès aux notebooks
+## Accès aux notebooks
 
-- Data_Loading_&_Cleaning : [Voir le notebook](./01_Data_Loading_&_Cleaning.html)
-- Macro Analysis : [Voir le notebook](./02_Macro_Analysis.html)
-- Genre Analysis : [Voir le notebook](./03_Genre_Analysis.html)
-- Platform Analysis : [Voir le notebook](./04_Platform_Analysis.html)
+- 🔗 Data Loading & Cleaning : [Voir le notebook](https://htmlpreview.github.io/?https://github.com/WissamHouzir/02_FS_Steam_Project/blob/main/01_Data_Loading_%26_Cleaning.html)
 
+- 🔗 Macro Analysis : [Voir le notebook](https://htmlpreview.github.io/?https://github.com/WissamHouzir/02_FS_Steam_Project/blob/main/02_Macro_Analysis.html)
+
+- 🔗 Genre Analysis : [Voir le notebook](https://htmlpreview.github.io/?https://github.com/WissamHouzir/02_FS_Steam_Project/blob/main/03_Genre_Analysis.html)
+
+- 🔗 Platform Analysis : [Voir le notebook](https://htmlpreview.github.io/?https://github.com/WissamHouzir/02_FS_Steam_Project/blob/main/04_Platform_Analysis.html)
 ---
 
 ## 👩‍💻 Auteur
