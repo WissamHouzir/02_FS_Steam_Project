@@ -73,13 +73,14 @@ Les notebooks ont été exportés au format **HTML** afin de permettre une consu
 
 ## Accès aux notebooks
 
-- 🔗 Data Loading & Cleaning : [Voir le notebook](https://htmlpreview.github.io/?https://github.com/WissamHouzir/02_FS_Steam_Project/blob/main/01_Data_Loading_%26_Cleaning.html)
+- 🔗 Data Loading & Cleaning : [Voir le notebook](https://htmlpreview.github.io/?https://raw.githubusercontent.com/WissamHouzir/02_FS_Steam_Project/main/01_Data_Loading_%26_Cleaning.html)
 
-- 🔗 Macro Analysis : [Voir le notebook](https://htmlpreview.github.io/?https://github.com/WissamHouzir/02_FS_Steam_Project/blob/main/02_Macro_Analysis.html)
+- 🔗 Macro Analysis : [Voir le notebook](https://htmlpreview.github.io/?https://raw.githubusercontent.com/WissamHouzir/02_FS_Steam_Project/main/02_Macro_Analysis.html)
 
-- 🔗 Genre Analysis : [Voir le notebook](https://htmlpreview.github.io/?https://github.com/WissamHouzir/02_FS_Steam_Project/blob/main/03_Genre_Analysis.html)
+- 🔗 Genre Analysis : [Voir le notebook](https://htmlpreview.github.io/?https://raw.githubusercontent.com/WissamHouzir/02_FS_Steam_Project/main/03_Genre_Analysis.html)
 
-- 🔗 Platform Analysis : [Voir le notebook](https://htmlpreview.github.io/?https://github.com/WissamHouzir/02_FS_Steam_Project/blob/main/04_Platform_Analysis.html)
+- 🔗 Platform Analysis : [Voir le notebook](https://htmlpreview.github.io/?https://raw.githubusercontent.com/WissamHouzir/02_FS_Steam_Project/main/04_Platform_Analysis.html)
+
 ---
 
 ## 👩‍💻 Auteur
