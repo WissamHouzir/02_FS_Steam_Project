@@ -67,19 +67,16 @@ L’analyse est structurée en trois parties principales :
 
 ---
 
-## 📤 Livrables
+## 📤 Livrables / Accès aux notebooks
 
-Les notebooks ont été exportés au format **HTML** afin de permettre une consultation simple des analyses et des visualisations sans nécessiter un accès à Databricks.
+La version utilisée de Databricks (Community Edition) ne permet pas la publication publique des notebooks via un lien Databricks.
 
-## Accès aux notebooks
+Les notebooks ont donc été exportés en HTML et publiés via GitHub Pages afin de permettre au jury d’accéder directement aux visualisations :
 
-- 🔗 Data Loading & Cleaning : [Voir le notebook](https://htmlpreview.github.io/?https://raw.githubusercontent.com/WissamHouzir/02_FS_Steam_Project/main/01_Data_Loading_%26_Cleaning.html)
-
-- 🔗 Macro Analysis : [Voir le notebook](https://htmlpreview.github.io/?https://raw.githubusercontent.com/WissamHouzir/02_FS_Steam_Project/main/02_Macro_Analysis.html)
-
-- 🔗 Genre Analysis : [Voir le notebook](https://htmlpreview.github.io/?https://raw.githubusercontent.com/WissamHouzir/02_FS_Steam_Project/main/03_Genre_Analysis.html)
-
-- 🔗 Platform Analysis : [Voir le notebook](https://htmlpreview.github.io/?https://raw.githubusercontent.com/WissamHouzir/02_FS_Steam_Project/main/04_Platform_Analysis.html)
+- 🔗 Data Loading & Cleaning : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/01_Data_Loading_%26_Cleaning.html)
+- 🔗 Macro Analysis : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/02_Macro_Analysis.html)
+- 🔗 Genre Analysis : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/03_Genre_Analysis.html)
+- 🔗 Platform Analysis : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/04_Platform_Analysis.html)
 
 ---
 
