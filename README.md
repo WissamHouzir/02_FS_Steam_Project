@@ -48,6 +48,7 @@ L’analyse est structurée en trois parties principales :
 ```id="482gs9"
 02_FS_Steam_Project/
 │
+├── index.html
 ├── 01_Data_Loading_&_Cleaning.html
 ├── 02_Macro_Analysis.html
 ├── 03_Genre_Analysis.html
@@ -73,10 +74,14 @@ La version utilisée de Databricks (Community Edition) ne permet pas la publicat
 
 Les notebooks ont donc été exportés en HTML et publiés via GitHub Pages afin de permettre au jury d’accéder directement aux visualisations :
 
-- 🔗 Data Loading & Cleaning : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/01_Data_Loading_%26_Cleaning.html)
-- 🔗 Macro Analysis : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/02_Macro_Analysis.html)
-- 🔗 Genre Analysis : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/03_Genre_Analysis.html)
-- 🔗 Platform Analysis : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/04_Platform_Analysis.html)
+- 🔗 Accueil du projet : [Voir la page de présentation](https://wissamhouzir.github.io/02_FS_Steam_Project/)
+- 🔗 Data Loading & Cleaning : [Voir le notebook](01_Data_Loading_%26_Cleaning.html)
+- 🔗 Macro Analysis : [Voir le notebook](02_Macro_Analysis.html)
+- 🔗 Genre Analysis : [Voir le notebook](03_Genre_Analysis.html)
+- 🔗 Platform Analysis : [Voir le notebook](04_Platform_Analysis.html)
+
+> Si la page GitHub Pages affiche une erreur 404, vérifier dans les paramètres du dépôt GitHub :
+> **Settings → Pages → Build and deployment → Deploy from a branch → main / root**.
 
 ---
 

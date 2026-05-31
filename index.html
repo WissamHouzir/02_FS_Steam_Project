@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analyse des jeux Steam</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --text: #172033;
+      --muted: #5d6678;
+      --line: #d9dee8;
+      --accent: #2563eb;
+      --accent-dark: #1d4ed8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(980px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+
+    header {
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 24px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      line-height: 1.1;
+    }
+
+    h2 {
+      margin: 36px 0 14px;
+      font-size: 1.35rem;
+    }
+
+    p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      max-width: 760px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .link-card {
+      display: block;
+      min-height: 132px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--text);
+      text-decoration: none;
+      transition: border-color 160ms ease, transform 160ms ease;
+    }
+
+    .link-card:hover,
+    .link-card:focus {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      outline: none;
+    }
+
+    .link-card strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1.02rem;
+    }
+
+    .link-card span {
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    ul {
+      padding-left: 20px;
+      color: var(--muted);
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .note {
+      margin-top: 28px;
+      padding: 16px 18px;
+      border-left: 4px solid var(--accent);
+      background: var(--panel);
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Analyse des jeux Steam</h1>
+      <p>
+        Projet d'analyse exploratoire d'un dataset Steam avec Databricks et PySpark.
+        L'objectif est d'identifier les tendances du marche, les genres dominants,
+        les plateformes principales et les facteurs associes a la popularite des jeux.
+      </p>
+    </header>
+
+    <section aria-labelledby="notebooks">
+      <h2 id="notebooks">Notebooks du projet</h2>
+      <div class="grid">
+        <a class="link-card" href="01_Data_Loading_%26_Cleaning.html">
+          <strong>01 - Data Loading & Cleaning</strong>
+          <span>Chargement, inspection, nettoyage et preparation du dataset.</span>
+        </a>
+        <a class="link-card" href="02_Macro_Analysis.html">
+          <strong>02 - Analyse macro</strong>
+          <span>Analyse globale des editeurs, prix, notes et sorties dans le temps.</span>
+        </a>
+        <a class="link-card" href="03_Genre_Analysis.html">
+          <strong>03 - Analyse par genre</strong>
+          <span>Comparaison des genres selon volume, satisfaction et revenus estimes.</span>
+        </a>
+        <a class="link-card" href="04_Platform_Analysis.html">
+          <strong>04 - Analyse des plateformes</strong>
+          <span>Repartition des jeux entre Windows, Mac et Linux.</span>
+        </a>
+      </div>
+    </section>
+
+    <section aria-labelledby="results">
+      <h2 id="results">Resultats principaux</h2>
+      <ul>
+        <li>L'ecosysteme Steam est fortement marque par les jeux independants.</li>
+        <li>Windows reste la plateforme largement dominante.</li>
+        <li>La majorite des prix observees se situe dans une fourchette accessible.</li>
+        <li>La popularite mesuree par les avis ne garantit pas toujours une meilleure satisfaction.</li>
+        <li>Les genres les plus representes sont aussi parmi les plus rentables.</li>
+      </ul>
+    </section>
+
+    <p class="note">
+      Ces pages sont des exports HTML Databricks. Si un notebook ne se charge pas,
+      verifier que GitHub Pages est active sur la branche main et que le navigateur
+      autorise les ressources externes Databricks.
+    </p>
+  </main>
+</body>
+</html>
