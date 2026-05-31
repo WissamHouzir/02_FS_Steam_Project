@@ -80,9 +80,6 @@ Les notebooks ont donc été exportés en HTML et publiés via GitHub Pages afin
 - 🔗 Genre Analysis : [Voir le notebook](03_Genre_Analysis.html)
 - 🔗 Platform Analysis : [Voir le notebook](04_Platform_Analysis.html)
 
-> Si la page GitHub Pages affiche une erreur 404, vérifier dans les paramètres du dépôt GitHub :
-> **Settings → Pages → Build and deployment → Deploy from a branch → main / root**.
-
 ---
 
 ## 👩‍💻 Auteur
