@@ -35,7 +35,7 @@ L’analyse est structurée en trois parties principales :
 
 ---
 
-## 🛠️ Outils et technologies
+##  Outils et technologies
 
 * **Databricks**
 * **PySpark**
@@ -58,7 +58,7 @@ L’analyse est structurée en trois parties principales :
 
 ---
 
-## 📈 Principaux résultats
+##  Principaux résultats
 
 * L’écosystème Steam est largement dominé par les **jeux indépendants (Indie)**.
 * **Windows** est la plateforme principale, avec beaucoup plus de jeux que Mac et Linux.
@@ -68,17 +68,18 @@ L’analyse est structurée en trois parties principales :
 
 ---
 
-## 📤 Livrables / Accès aux notebooks
+## Livrables / Accès aux notebooks
 
 La version utilisée de Databricks (Community Edition) ne permet pas la publication publique des notebooks via un lien Databricks.
 
 Les notebooks ont donc été exportés en HTML et publiés via GitHub Pages afin de permettre au jury d’accéder directement aux visualisations :
 
-- 🔗 Accueil du projet : [Voir la page de présentation](https://wissamhouzir.github.io/02_FS_Steam_Project/)
-- 🔗 Data Loading & Cleaning : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/01_Data_Loading_%26_Cleaning.html)
-- 🔗 Macro Analysis : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/02_Macro_Analysis.html)
-- 🔗 Genre Analysis : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/03_Genre_Analysis.html)
-- 🔗 Platform Analysis : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/04_Platform_Analysis.html)
+-  Accueil du projet : [Voir la page de présentation](https://wissamhouzir.github.io/02_FS_Steam_Project/)
+
+    -  Data Loading & Cleaning : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/01_Data_Loading_%26_Cleaning.html)
+    -  Macro Analysis : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/02_Macro_Analysis.html)
+    -  Genre Analysis : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/03_Genre_Analysis.html)
+    -  Platform Analysis : [Voir le notebook](https://wissamhouzir.github.io/02_FS_Steam_Project/04_Platform_Analysis.html)
 
 ---
 
